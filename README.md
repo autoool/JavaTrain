@@ -1,0 +1,5 @@
+- crazyjava16 《疯狂Java 突破程序员的基本功16课》
+- javaconcurrent 《Java并发编程的艺术》
+- javathink 《Java编程思想》
+- javamultithreading 《Java多线程编程核心技术》
+- reactivejava8 《Learning Reactive Programming with Java 8》
