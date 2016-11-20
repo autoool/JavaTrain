@@ -12,7 +12,6 @@ public class StaticInnerSingleton {
 	private String content;
 
 	private StaticInnerSingleton() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public static StaticInnerSingleton getInstance(String content) {

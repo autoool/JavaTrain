@@ -18,8 +18,6 @@ public class SeriealSingleton implements Serializable{
 		return SingletonObject.Instance;
 	}
 	
-	
-	
 	//如果这段代码注释掉，则还是多例 ，书中代码是用protected 修饰这个代码，还是多例模式
 	//网上搜到这边文章http://www.cnblogs.com/kakafra/archive/2012/10/26/2740436.html
 	//改为private 就是单例了。

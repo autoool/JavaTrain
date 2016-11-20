@@ -9,7 +9,12 @@ public class HungrySingleton implements Serializable{
 	 */
 	private static HungrySingleton Instance = new HungrySingleton();
 	public static HungrySingleton getInstance() {
+		try {
+			Thread.sleep(3000);	
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		
+		}		
 		return Instance;
 	}
-
 }

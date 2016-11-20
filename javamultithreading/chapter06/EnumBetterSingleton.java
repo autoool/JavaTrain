@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 public class EnumBetterSingleton {
 	public enum SelfEnumSingleton {
 		connectionFactory;
@@ -20,7 +18,7 @@ public class EnumBetterSingleton {
 				Class.forName(driverName);
 				connection = DriverManager.getConnection(url, username, password);
 			} catch (ClassNotFoundException e) {
-				e.printStackTrace();
+				e.printStackTrace(); 
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
