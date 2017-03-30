@@ -18,13 +18,7 @@ public class Chapter9Test {
                                      String nationality,
                                      int maxResults) {
         return null;
-//		return LambdaTest.getSavedArtists()
-//				.filter(name->name.contains(searchName))
-//				.flatMap(new Function<Artist, Artist>() {
-//
-//				})
-//				.filter(artist->artist.getNationality().contains(nationality))
-//				.take(maxResults);
 
     }
+
 }
