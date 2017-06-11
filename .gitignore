@@ -1,3 +1,7 @@
 .git
 .settings
 /bin
+/out
+/.idea
+.idea
+
